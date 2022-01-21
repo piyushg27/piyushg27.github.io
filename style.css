@@ -43,7 +43,7 @@ a{
 }
 
 #apple:hover{
-    color: black;
-    background: whitesmoke;
+    color: white;
+    background: grey;
     transition: 0.5s ease-in;
 }
