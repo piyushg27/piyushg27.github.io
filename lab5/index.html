@@ -1,20 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCA Lab - 5</title>
-    <link rel="stylesheet" href="../style.css">
+	<style>
+
+		body {
+			background: linear-gradient(to bottom, #9045bb 11%, #12048d 100%);
+			background-size: 1920px X 1080px;
+
+			font-family:lobstr ;
+			text-align: center;
+		}
+
+		
+		form {
+			background-color: rgba(225, 225, 225, 0.5);
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(161, 106, 106, 0.459);
+		}
+		
+		
+	</style>
 </head>
-<body>
-    <div class="main">
-    </div>
-    <div class="container">
-        <h1>Work In Progress</h1><br>
-        <p>to be continued.</p><br><br>
-        <a id="apple" href="../index.html">Lab 1</a>
-        <a id="apple" href="../lab2/index.html">Lab 2</a>
-    </div>
-</body>
+
+    <body>
+        <h2>SAMPLE FORM</h2>
+        <form>
+            <lable for="firstname">FIRST NAME:</lable><br>
+            <input type="text" id="firstname" name="firstname"><br><br>
+            <lable for="lastname">LAST NAME:</lable><br>
+            <input type="text" id="lname" name="lastname"><br><br>
+            <lable for="ename">E-MAIL:</lable><br>
+            <input type="text" id="ename" name="ename"><br><br>
+            <lable for="dob">DATE OF BIRTH:</lable><br>
+            <input type="text" id="dob" name="dob"><br><br>
+            <lable for="cont">CONTACT DETAILS:</lable><br>
+            <input type="text" id="cont" name="cont"><br><br>          
+            <lable for="ename">ENROLLMENT NO.:</lable><br>
+            <input type="text" id="ename" name="ename"><br><br>
+            <div class="form-control">
+		<label for="course" id="course">
+			COURSE
+		</label>
+		
+		<select name="course" id="course">
+			<option value="BCA">BCA(</option>
+			<option value="BBA">BBA</option>
+			<option value="BTech">BTech</option>
+			<option value="other">other</option>
+		<input type="text" id="other"
+			placeholder="*please mention if other subject*" />
+		</select>
+	</div>
+			
+            
+            <lable for="aname">ADDRESS:</lable><br>
+            <input type="text" id="aname" name="eaname"><br><br>
+           <div class="form-control">
+		<label for="state" id="label-state">
+			STATE
+		</label>
+		
+		<select name="state" id="state">
+			<option value="Andaman and Nicobar (UT)">Andaman and Nicobar (UT)</option>
+			<option value="Andhra Pradesh">Andhra Pradesh</option>
+			<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+			<option value="Assam">Assam</option>
+			<option value="Bihar">Bihar</option>
+			<option value="Chandigarh (UT)">Chandigarh (UT)</option>
+			<option value="Chhattisgarh">Chhattisgarh</option>
+			<option value="Dadra and Nagar Haveli (UT)">Dadra and Nagar Haveli (UT)</option>
+			<option value="Daman and Diu (UT)">Daman and Diu (UT)</option>
+			<option value="Delhi">Delhi</option>
+			<option value="Goa">Goa</option>
+			<option value="Gujarat">Gujarat</option>
+			<option value="Haryana">Haryana</option>
+			<option value="Himachal Pradesh">Himachal Pradesh</option>
+			<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+			<option value="Jharkhand">Jharkhand</option>
+			<option value="Karnataka">Karnataka</option>
+			<option value="Kerala">Kerala</option>
+			<option value="Lakshadweep (UT)">Lakshadweep (UT)</option>
+			<option value="Madhya Pradesh">Madhya Pradesh</option>
+			<option value="Maharashtra">Maharashtra</option>
+			<option value="Manipur">Manipur</option>
+			<option value="Meghalaya">Meghalaya</option>
+			<option value="Mizoram">Mizoram</option>
+			<option value="Nagaland">Nagaland</option>
+			<option value="Orissa">Orissa</option>
+			<option value="Puducherry (UT)">Puducherry (UT)</option>
+			<option value="Punjab">Punjab</option>
+			<option value="Rajasthan">Rajasthan</option>
+			<option value="Sikkim">Sikkim</option>
+			<option value="Tamil Nadu">Tamil Nadu</option>
+			<option value="Telangana">Telangana</option>
+			<option value="Tripura">Tripura</option>
+			<option value="Uttar Pradesh">Uttar Pradesh</option>
+			<option value="Uttarakhand">Uttarakhand</option>
+			<option value="West Bengal">West Bengal</option>
+		</select>
+	</div>
+	<br><br>
+            	<lablel for="pname">PINCODE:</lable><br>
+	 <input type="text" id="pname" name="pname"><br><br><br>
+
+            <input type="button" onclick="alert('Your form successfully got submitted...!')" value="Submit">
+            <input type="button" onclick="alert('Your form successfully got reset...!')"value="Reset">
+        </form>
+    </body>
 </html>
